@@ -17,5 +17,5 @@ export abstract class Character {
     console.log(`${this.name}: HP ${this.hp}`);
   }
 
-  abstract attack(): void;
+  abstract attack(opponent: Character): void;
 }
