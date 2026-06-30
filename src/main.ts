@@ -1,5 +1,6 @@
 import { Mage } from "./mage";
 import { Warrior } from "./warrior";
+import { Character } from "./character";
 import { Enemy } from "./enemy";
 
 const slime = new Enemy("スライム", 50);
@@ -18,3 +19,5 @@ warrior.attack();
 const mage = new Mage("メディア", 80);
 mage.showStatus();
 mage.attack();
+
+console.log("やばいですうううう");
