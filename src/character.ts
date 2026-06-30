@@ -7,6 +7,12 @@ export abstract class Character {
     this.hp = hp;
   }
 
+  // ダメージを受ける
+  takeDamage(damage: number): void {
+    this.hp -= damage;
+    // this.hp = this.hp - damage;
+  }
+
   showStatus() {
     console.log(`${this.name}: HP ${this.hp}`);
   }
